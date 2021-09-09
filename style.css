@@ -1,0 +1,30 @@
+.header {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin: 0 auto;
+  background: #FEFBF3;
+}
+.wrapper {
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+  font-size: 25px;
+}
+.unix {
+  width: 30%;
+  font-size: 25px;
+}
+.main {
+  background: #79B4B7;
+  height: 100px;
+}
+.btn {
+  background: #9D9D9D;
+  color: white;
+  transition: transform 1s;
+}
+.btn:hover {
+  transform: scaleY(1.5);
+  transform: scaleX(1.5);
+}
